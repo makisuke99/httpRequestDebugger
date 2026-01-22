@@ -80,7 +80,7 @@ curl -XPOST http://localhost:8080/ -H 'Content-Type:application/x-www-form-urlen
 
 - Result
 
-[result_sample.html](result_sample.html)
+[result_sample.html](https://makisuke99.github.io//httpRequestDebugger/result_sample.html)
 
 ---
 
@@ -121,3 +121,4 @@ Free to modify and use.
 
 This tool is designed for developers who want full visibility into HTTP requests.  
 If you have ideas for improvements or new features, feel free to contribute or reach out.
+
