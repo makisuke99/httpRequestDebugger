@@ -71,6 +71,17 @@ curl -X POST http://localhost:8080/ \
 
 The server displays all request details in a structured, readable format.
 
+#### Sample Command and Result
+
+- Command line(Windows)
+```DOS
+curl -XPOST http://localhost:8080/ -H 'Content-Type:application/x-www-form-urlencoded' -H "Authorization: Bearer xxxxxxxxxxxxxxxxx" -F "file=@test.csv;type=multipart/form-data" -F "processinfo={\"type\":\"replace\",\"linkName\":\"Sample\",\"userKeyNames\":[{\"user\":\"UserAccountName1\",\"userAccount\": \"UserAccount1\"}],\"processingName\":\"SampleProcess\"};type=text/json" > result_sample.html
+```
+
+- Result
+
+[result_sample.html](result_sample.html)
+
 ---
 
 ## 📂 What gets displayed

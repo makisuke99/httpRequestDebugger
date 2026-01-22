@@ -72,9 +72,13 @@ curl -X POST http://localhost:8080/ \
 コマンドラインで実行すると標準出力に表示されるので、.htmlファイルにリダイレクト出力してブラウザで開くと読みやすくなります。
 
 
-#### サンプルコマンドと結果（Windows）
+### 3. ブラウザで結果を確認
 
-- コマンド
+送信されたリクエスト内容が Web UI に表示されます。
+
+#### サンプルコマンドと結果
+
+- コマンド（Windows）
 ```DOS
 curl -XPOST http://localhost:8080/ -H 'Content-Type:application/x-www-form-urlencoded' -H "Authorization: Bearer xxxxxxxxxxxxxxxxx" -F "file=@test.csv;type=multipart/form-data" -F "processinfo={\"type\":\"replace\",\"linkName\":\"Sample\",\"userKeyNames\":[{\"user\":\"UserAccountName1\",\"userAccount\": \"UserAccount1\"}],\"processingName\":\"SampleProcess\"};type=text/json" > result_sample.html
 ```
@@ -83,10 +87,6 @@ curl -XPOST http://localhost:8080/ -H 'Content-Type:application/x-www-form-urlen
 
 [result_sample.html](result_sample.html)
 
-
-### 3. ブラウザで結果を確認
-
-送信されたリクエスト内容が Web UI に表示されます。
 
 ---
 
