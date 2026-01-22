@@ -85,7 +85,7 @@ curl -XPOST http://localhost:8080/ -H 'Content-Type:application/x-www-form-urlen
 
 - 結果
 
-[result_sample.html](result_sample.html)
+[result_sample.html](https://makisuke99.github.io//httpRequestDebugger/result_sample.html)
 
 
 ---
@@ -127,5 +127,6 @@ curl -XPOST http://localhost:8080/ -H 'Content-Type:application/x-www-form-urlen
 
 このツールは、HTTP リクエストの中身を深く理解したい開発者のために作られています。  
 改善案や追加したい機能があれば、気軽に相談してください。
+
 
 
