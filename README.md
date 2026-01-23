@@ -13,5 +13,11 @@ HTTP リクエストの中身を確認したいときに最適です。
 [README_Ja_HTTP_Request_Debugger.md](README_Ja_HTTP_Request_Debugger.md)
 
 ## English
+
+A lightweight yet powerful HTTP debugging server.
+It supports GET / POST / PUT / DELETE / PATCH and visualizes incoming HTTP requests in a clean, Bootstrap‑powered web interface.
+
+This tool is ideal for inspecting HTTP requests during API development, form submission testing, multipart debugging, or analyzing raw request bodies.
+
 [README_EN_HTTP_Request_Debugger.md](README_EN_HTTP_Request_Debugger.md)
 
